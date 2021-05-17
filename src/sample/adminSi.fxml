@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="700.0" prefWidth="1000.0" style="-fx-background-color: ffffff;" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.adminSiCntr">
+   <children>
+      <Label layoutX="337.0" layoutY="39.0" prefHeight="99.0" prefWidth="327.0" text="DRUGSTORE">
+         <font>
+            <Font name="Agency FB Bold" size="80.0" />
+         </font>
+      </Label>
+      <Label layoutX="405.0" layoutY="213.0" text="Administrator">
+         <font>
+            <Font name="Agency FB Bold" size="40.0" />
+         </font>
+      </Label>
+      <TextField fx:id="loginAdmTF" layoutX="396.0" layoutY="288.0" prefHeight="34.0" prefWidth="210.0" promptText="login">
+         <font>
+            <Font name="Agency FB" size="18.0" />
+         </font>
+      </TextField>
+      <Button fx:id="signInAdminBtn" layoutX="471.0" layoutY="385.0" mnemonicParsing="false" style="-fx-background-color: ffffff; -fx-background-radius: 30px;" text="Sign in!">
+         <font>
+            <Font name="Agency FB" size="16.0" />
+         </font>
+      </Button>
+      <Button fx:id="back" layoutX="879.0" layoutY="610.0" mnemonicParsing="false" prefHeight="43.0" prefWidth="72.0" style="-fx-background-color: ffffff;" text="BACK">
+         <font>
+            <Font name="Agency FB" size="22.0" />
+         </font></Button>
+      <PasswordField fx:id="passAdmTF" layoutX="397.0" layoutY="338.0" prefHeight="34.0" prefWidth="210.0" promptText="password" />
+   </children>
+</AnchorPane>

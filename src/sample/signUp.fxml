@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="700.0" prefWidth="1000.0" style="-fx-background-color: ffffff;" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.SignUpController">
+   <children>
+      <Label layoutX="337.0" layoutY="41.0" prefHeight="99.0" prefWidth="327.0" text="DRUGSTORE">
+         <font>
+            <Font name="Agency FB Bold" size="80.0" />
+         </font>
+      </Label>
+      <Label layoutX="416.0" layoutY="154.0" text="Registration">
+         <font>
+            <Font name="Agency FB Bold" size="40.0" />
+         </font>
+      </Label>
+      <Label fx:id="writeAnothLogFX" layoutX="239.0" layoutY="441.0" prefHeight="27.0" prefWidth="159.0" text="write another login*" textFill="RED" visible="false">
+         <font>
+            <Font name="Agency FB Bold" size="22.0" />
+         </font>
+      </Label>
+      <TextField fx:id="surnameRFX" layoutX="396.0" layoutY="214.0" prefHeight="34.0" prefWidth="210.0" promptText="surname">
+         <font>
+            <Font name="Agency FB" size="18.0" />
+         </font>
+      </TextField>
+      <TextField fx:id="middleRFX" layoutX="395.0" layoutY="305.0" prefHeight="34.0" prefWidth="210.0" promptText="middlename">
+         <font>
+            <Font name="Agency FB" size="18.0" />
+         </font>
+      </TextField>
+      <TextField fx:id="nameRFX" layoutX="395.0" layoutY="260.0" prefHeight="34.0" prefWidth="210.0" promptText="name">
+         <font>
+            <Font name="Agency FB" size="18.0" />
+         </font>
+      </TextField>
+      <Button fx:id="signUpRBtn" layoutX="471.0" layoutY="525.0" mnemonicParsing="false" style="-fx-background-color: ffffff; -fx-background-radius: 30px;" text="Sign up!">
+         <font>
+            <Font name="Agency FB" size="16.0" />
+         </font>
+      </Button>
+      <Button fx:id="back" layoutX="879.0" layoutY="610.0" mnemonicParsing="false" prefHeight="43.0" prefWidth="72.0" style="-fx-background-color: ffffff;" text="BACK">
+         <font>
+            <Font name="Agency FB" size="22.0" />
+         </font>
+      </Button>
+      <TextField fx:id="numberRFX" layoutX="395.0" layoutY="350.0" prefHeight="34.0" prefWidth="210.0" promptText="number">
+         <font>
+            <Font name="Agency FB" size="18.0" />
+         </font>
+      </TextField>
+      <TextField fx:id="addressRFX" layoutX="396.0" layoutY="394.0" prefHeight="34.0" prefWidth="210.0" promptText="address">
+         <font>
+            <Font name="Agency FB" size="18.0" />
+         </font>
+      </TextField>
+      <TextField fx:id="loginRFX" layoutX="396.0" layoutY="437.0" prefHeight="34.0" prefWidth="210.0" promptText="login">
+         <font>
+            <Font name="Agency FB" size="18.0" />
+         </font>
+      </TextField>
+      <TextField fx:id="passwordRFX" layoutX="395.0" layoutY="483.0" prefHeight="34.0" prefWidth="210.0" promptText="password">
+         <font>
+            <Font name="Agency FB" size="18.0" />
+         </font>
+      </TextField>
+   </children>
+</AnchorPane>
